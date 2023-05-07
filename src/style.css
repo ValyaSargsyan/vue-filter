@@ -1,0 +1,54 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #F7F6F4;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+@font-face {
+  font-family: "PtSans";
+  src: local("PtSans"),
+  url("./assets/fonts/PTSans-Regular.ttf") format("truetype") ;
+}
+
+@font-face {
+  font-family: "PtSans-Bold";
+  src: local("PtSans-Bold"),
+  url("./assets/fonts/PTSans-Bold.ttf") format("truetype") ;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PtSans", sans-serif;
+}
+
+#app {
+  width: 84%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 90px 0;
+}
+
+@media (max-width: 1280px) {
+  #app {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 768px) {
+  #app {
+    max-width: 500px;
+    padding: 35px 0;
+  }
+}
+
